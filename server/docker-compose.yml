@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  sampledockerapp:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: sampledockerapp:latest
+    ports :
+      - "9013:9012"
