@@ -3,7 +3,7 @@ var app = express();
 
 
 app.get('/', function (req, res) {
-    res.send('hello world')
+    res.send('Hello World')
   });
 
 let port = 9012;
